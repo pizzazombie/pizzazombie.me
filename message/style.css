@@ -1,0 +1,88 @@
+	
+/*Задаём общие параметры для всей страницы: шрифт и отступы*/
+body{
+
+    /* text-align: center; */
+  
+    /* margin: auto; */
+  
+    font-family: Verdana, Arial, sans-serif;
+  
+    font-size: 16px;
+  
+    margin-left: 50px;
+  } 
+  
+  /* Настраиваем внешний вид полей ввода*/
+  
+  input {
+  
+    display: inline-block;
+  
+    margin: 10px auto;
+  
+    border: 2px solid #eee;
+  
+    padding: 10px 20px;
+  
+    font-family: Verdana, Arial, sans-serif;
+  
+    font-size: 16px;
+  
+    z-index: 2;
+  }
+  input:focus {
+    background: #f8f8f8;
+    }
+   
+  textarea {
+  
+    display: inline-block;
+  
+    margin: 10px auto;
+  
+    border: 2px solid #eee;
+  
+    padding: 10px 20px;
+  
+    font-family: Verdana, Arial, sans-serif;
+  
+    font-size: 16px;
+  
+  } 
+
+.icons{
+     position: relative;
+     left: 100%;
+     margin-left: -30px;
+
+}
+ /* .icon2{
+    position: relative;
+     left: 40px;
+
+} */
+.mess{
+  position: relative;
+  left: 0px;
+  top: -60px;
+  z-index: -1;
+
+}
+.name{
+  position: relative;
+     left: 60px;
+     top: 8px;
+     z-index: -1;
+
+} 
+td#some { width: 60px; height: 60px }
+td {
+    text-align: center;
+    
+}
+.scale {
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.2); }
