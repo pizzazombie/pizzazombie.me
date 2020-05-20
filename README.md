@@ -5,6 +5,9 @@ Made by html/css and php module for email message support
 
 <img src="img/main.png">
 
+Contact form page:
+<img src="img/contact.png">
+<br>
 My music page as subdomain
 <img src="img/pz.png">
 
